@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Lato-Semibold';
+  src: url('Lato-Semibold.eot');
+  src: url('Lato-Semibold.woff2') format('woff2'),
+       url('Lato-Semibold.woff') format('woff'),
+       url('Lato-Semibold.ttf') format('truetype'),
+       url('Lato-Semibold.svg#Lato-Semibold') format('svg'),
+       url('Lato-Semibold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
