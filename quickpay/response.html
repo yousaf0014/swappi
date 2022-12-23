@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>QuickPay Payment Window</title>
+    <link href="/assets/web/stylesheet/test.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="header">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+          <h1 class="text-center-xs center-xy text-right"><i class="fa fa-fw fa-2x fa-frown-o error"></i> Error</h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="well-xs well-greyish-xs well-sm well-greyish-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <p class="text-center"><strong>This is an unexpected error. Our developers have been notified.</strong></p>
+      </div>
+      <div class="col-xs-12">
+        <p class="text-center"><strong>If the error persists please contact the merchant. If you are the merchant please contact QuickPay.</strong></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <div id="footer">
+      <div id="gateway-info">
+        <div id="gateway-info-inner">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12" style="text-align: center">
+                <button class="btn btn-default" data-hide="#gateway-info"><i class="fa fa-arrow-down"></i></button>
+              </div>
+            </div>
+            <div class="row gateway-description">
+              <div class="col-md-6 col-sm-6 col-xs-12">
+                <p>QuickPay is your secure, reliable and dynamic payment service provider. Learn more about our services at <a href="https://www.quickpay.net">www.quickpay.net</a>.</p>
+              </div>
+              <div class="col-md-6 col-sm-6 col-xs-12">
+                <p>QuickPay operates at the highest level of security and is certified by the PCI Security Standards Council.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="bottom-bar">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-6">
+              <img class="clickable" data-toggle="#gateway-info" src="/assets/web/images/quickpay_logo_inverse.png" alt="QuickPay">
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-6 text-right">
+              <span class="clickable" data-toggle="#gateway-info"><i class="fa fa-fw fa-lock"></i> SSL encrypted</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/assets/web/javascript/jquery.min.js"></script>
+    
+  </body>
+</html>

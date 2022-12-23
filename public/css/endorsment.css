@@ -1,0 +1,95 @@
+.anbefalinger_section{
+    float: left;
+    width: 100%;
+    margin-top: 50px;
+    border-bottom: 1px solid #e0e0dc;
+    padding-bottom: 50px;
+}
+.anbefalinger_section h1{
+    font-family: "Lato-Light";
+    display: inline-block;
+    width: 60%;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #3e3e3d;
+}
+.anbefalinger_section .add-sort-button{
+    float: right;
+    text-align: right;
+    width: 40%;
+}
+.anbefalinger_section .add-sort-button .sort-handle {
+    float: right;
+    background: #e0e0dc;
+    padding: 2px 0;
+    margin-left: 5px;
+}
+.anbefalinger_p{
+    text-align: justify;
+    font-size: 14px;
+}
+.anbefalinger_sub_title{
+    color: #839192;
+    font-weight: 400;
+}
+.anbefalinger_span{
+    font-size: 10px;
+    color: #839192;
+}
+
+
+.kompetencer_section{
+    float: left;
+    width: 100%;
+    margin-top: 50px;
+    border-bottom: 1px solid #e0e0dc;
+    padding-bottom: 50px;
+}
+.kompetencer_section h1{
+    font-family: "Lato-Light";
+    display: inline-block;
+    width: 60%;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #3e3e3d;
+}
+.kompetencer_section .add-sort-button{
+    float: right;
+    text-align: right;
+    width: 40%;
+}
+.kompetencer_section .add-sort-button .sort-handle {
+    float: right;
+    background: #e0e0dc;
+    padding: 2px 0;
+    margin-left: 5px;
+}
+.kom_span_count{
+background-color: #3498DB;color: #ffffff;padding: 7px;}
+.kom_span_cat{
+background-color:#E5E7E9;color: #797D7F;padding: 7px;font-weight: bold;padding-left: 15px; padding-right: 15px;margin-left: -2%;}
+
+
+.carousel-control     		 { width:  4%; }
+.carousel-control.left,.carousel-control.right {margin-left:15px;background-image:none;}
+@media (max-width: 767px) {
+	.carousel-inner .active.left { left: -100%; }
+	.carousel-inner .next        { left:  100%; }
+	.carousel-inner .prev		 { left: -100%; }
+	.active > div { display:none; }
+	.active > div:first-child { display:block; }
+
+}
+@media (min-width: 767px) and (max-width: 992px ) {
+	.carousel-inner .active.left { left: -50%; }
+	.carousel-inner .next        { left:  50%; }
+	.carousel-inner .prev		 { left: -50%; }
+	.active > div { display:none; }
+	.active > div:first-child { display:block; }
+	.active > div:first-child + div { display:block; }
+}
+@media (min-width: 992px ) {
+	.carousel-inner .active.left { left: -16.7%; }
+	.carousel-inner .next        { left:  16.7%; }
+	.carousel-inner .prev		 { left: -16.7%; }	
+}
